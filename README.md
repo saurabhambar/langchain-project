@@ -10,7 +10,7 @@ This course is designed to teach you how to QUICKLY harness the power of the Lan
 [![Twitter Follow](https://img.shields.io/twitter/follow/SauravAmbar?style=social)](https://twitter.com/sauravambar)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
-[![udemy](https://img.shields.io/badge/Powered%20By%20Saurabh%20Ambar%20%2412.99-brightgreen)](https://devfolio.co/@saurabhambar)
+[![udemy](https://img.shields.io/badge/Powered%20By%20Saurabh%20Ambar%20-brightgreen)](https://devfolio.co/@saurabhambar)
 
 
 
