@@ -4,9 +4,12 @@ import os
 from langchain.agents import create_agent
 from langchain.tools import tool
 from langchain_core.messages import HumanMessage
+from tavily import TavilyClient
 
 
 load_dotenv()
+
+tavily = TavilyClient(api_key=os.getenv("TAVILY_API_KEY"))
 
 @tool
 def search(query: str) -> str:
@@ -18,7 +21,7 @@ def search(query: str) -> str:
         The search results
     """
     print(f"Searching for: {query}")
-    return "Tokyo weather is Sunny"
+    return str(tavily.search(query=query))
 
 llm = ChatOllama(model="llama3.1:latest")
 tools = [search]
